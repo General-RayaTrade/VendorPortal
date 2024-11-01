@@ -1,0 +1,11 @@
+E:\VendorPortalSolution\VendorPortal.EF\bin\Debug\net8.0\VendorPortal.EF.deps.json
+E:\VendorPortalSolution\VendorPortal.EF\bin\Debug\net8.0\VendorPortal.EF.dll
+E:\VendorPortalSolution\VendorPortal.EF\bin\Debug\net8.0\VendorPortal.EF.pdb
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\VendorPortal.EF.GeneratedMSBuildEditorConfig.editorconfig
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\VendorPortal.EF.AssemblyInfoInputs.cache
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\VendorPortal.EF.AssemblyInfo.cs
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\VendorPortal.EF.csproj.CoreCompileInputs.cache
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\VendorPortal.EF.dll
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\refint\VendorPortal.EF.dll
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\VendorPortal.EF.pdb
+E:\VendorPortalSolution\VendorPortal.EF\obj\Debug\net8.0\ref\VendorPortal.EF.dll

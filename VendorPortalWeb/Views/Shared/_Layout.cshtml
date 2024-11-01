@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - VendorPortal</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" /> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/site.css" /> <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <style>
+        /* Additional styles to ensure proper layout */
+        #sidebar {
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full height of the viewport */
+        }
+
+        .footer {
+            margin-top: auto; /* Pushes the footer to the bottom */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container d-flex align-items-stretch">
+        <nav id="sidebar" class="img">
+            <div class="p-4">
+                <h1><a href="index.html" class="logo">Samsung <span>BY RAYA</span></a></h1>
+                <ul class="list-unstyled components mb-5">
+                    <li class="active">
+                        <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/orders" class="nav-link">
+                            <i class="fas fa-box"></i> Orders
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/tracking-orders" class="nav-link">
+                            <i class="fas fa-map-marker-alt"></i> Tracking Orders
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer">
+                    <p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is powered by <b>RAYA</b>
+                    </p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+            <h2 class="mb-4">Samsung Vendor Portal</h2>
+            <!-- Counter Section -->
+            <div class="order-counter mt-4">
+                <h2 class="mb-4">Orders Overview</h2>
+                <div class="counter-container d-flex justify-content-around">
+                    <div class="counter">
+                        <img src="~/images/delivery-truck.png" alt="Order Icon" class="counter-icon" />
+                        <div class="counter-value" data-count="150">0</div>
+                        <p>Total Orders</p>
+                    </div>
+                    <div class="counter">
+                        <img src="~/images/folder-web.png" alt="Pending Icon" class="counter-icon" />
+                        <div class="counter-value" data-count="50">0</div>
+                        <p>Pending Orders</p>
+                    </div>
+                    <div class="counter">
+                        <img src="~/images/delivery-completed.png" alt="Completed Icon" class="counter-icon" />
+                        <div class="counter-value" data-count="100">0</div>
+                        <p>Completed Orders</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <!-- Your footer content -->
+    </footer>
+
+    <script src="~/js/jquery.min.js"></script> <!-- jQuery -->
+    <script src="~/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JavaScript -->
+    <script src="~/js/site.js"></script> <!-- Custom JavaScript -->
+    <script src="~/js/scripts.js"></script>
+</body>
+</html>

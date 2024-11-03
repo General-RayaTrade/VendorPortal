@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VendorPortalSolution\\VendorPortal.API\\VendorPortal.API.csproj",
+      "projectUniqueName": "E:\\VendorPortal\\VendorPortal.API\\VendorPortal.API.csproj",
       "projectName": "VendorPortal.API",
-      "projectPath": "E:\\VendorPortalSolution\\VendorPortal.API\\VendorPortal.API.csproj",
+      "projectPath": "E:\\VendorPortal\\VendorPortal.API\\VendorPortal.API.csproj",
       "packagesPath": "C:\\Users\\hossam_fathy\\.nuget\\packages\\",
-      "outputPath": "E:\\VendorPortalSolution\\VendorPortal.API\\obj\\",
+      "outputPath": "E:\\VendorPortal\\VendorPortal.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hossam_fathy\\AppData\\Roaming\\NuGet\\NuGet.Config",

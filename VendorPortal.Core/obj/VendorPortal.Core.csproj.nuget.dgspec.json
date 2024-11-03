@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VendorPortalSolution\\VendorPortal.Core\\VendorPortal.Core.csproj": {}
+    "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj": {}
   },
   "projects": {
-    "E:\\VendorPortalSolution\\VendorPortal.Core\\VendorPortal.Core.csproj": {
+    "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VendorPortalSolution\\VendorPortal.Core\\VendorPortal.Core.csproj",
+        "projectUniqueName": "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj",
         "projectName": "VendorPortal.Core",
-        "projectPath": "E:\\VendorPortalSolution\\VendorPortal.Core\\VendorPortal.Core.csproj",
+        "projectPath": "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj",
         "packagesPath": "C:\\Users\\hossam_fathy\\.nuget\\packages\\",
-        "outputPath": "E:\\VendorPortalSolution\\VendorPortal.Core\\obj\\",
+        "outputPath": "E:\\VendorPortal\\VendorPortal.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hossam_fathy\\AppData\\Roaming\\NuGet\\NuGet.Config",

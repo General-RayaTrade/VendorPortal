@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHwkCj1QUCnCGv5KlRHNa6yLGhbtC7PnxiEZn1AVH5mfWon7TKrxC3o9PDeu2uJZm/xUqRfFlxoH7qJpPuJtIw==",
+  "dgSpecHash": "Y9aA9IhPf+bDikUlLKhUXj3XECm1pC+ydUp9/L85bBrFP1RkaqtBMBqzwMyD90N/XMa3++OudCe7AcT6ejM2Wg==",
   "success": true,
-  "projectFilePath": "E:\\VendorPortalSolution\\VendorPortal.Service\\VendorPortal.Service.csproj",
+  "projectFilePath": "E:\\VendorPortal\\VendorPortal.Service\\VendorPortal.Service.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

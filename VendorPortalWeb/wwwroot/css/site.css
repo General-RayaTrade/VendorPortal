@@ -52,7 +52,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #343a40; /* Dark background for the sidebar */
+    /*background-color: #343a40;*/ /* Dark background for the sidebar */
+    background-color: black; /* Dark background for the sidebar */
     height: 100vh; /* Full height */
 }
 
@@ -127,6 +128,7 @@ body {
     flex: 1;
     padding: 20px;
     transition: transform 0.3s;
+    width: 25%;
 }
 
     .counter:hover {
@@ -134,12 +136,16 @@ body {
     }
 
 .counter-icon {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     margin-bottom: 10px;
 }
 
 .counter-value {
     font-size: 2rem;
     font-weight: bold;
+}
+.content-wrapper-custom {
+    background: linear-gradient(135deg, #000000 70%, #ffffff 30%);
+    color: black;
 }

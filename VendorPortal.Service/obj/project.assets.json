@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VendorPortalSolution\\VendorPortal.Service\\VendorPortal.Service.csproj",
+      "projectUniqueName": "E:\\VendorPortal\\VendorPortal.Service\\VendorPortal.Service.csproj",
       "projectName": "VendorPortal.Service",
-      "projectPath": "E:\\VendorPortalSolution\\VendorPortal.Service\\VendorPortal.Service.csproj",
+      "projectPath": "E:\\VendorPortal\\VendorPortal.Service\\VendorPortal.Service.csproj",
       "packagesPath": "C:\\Users\\hossam_fathy\\.nuget\\packages\\",
-      "outputPath": "E:\\VendorPortalSolution\\VendorPortal.Service\\obj\\",
+      "outputPath": "E:\\VendorPortal\\VendorPortal.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hossam_fathy\\AppData\\Roaming\\NuGet\\NuGet.Config",

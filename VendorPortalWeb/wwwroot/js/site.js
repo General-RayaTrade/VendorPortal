@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Show the default section
-    document.querySelector('#orders').style.display = 'block';
+    //document.querySelector('#orders').style.display = 'block';
 });
 document.addEventListener('DOMContentLoaded', function () {
     const counters = document.querySelectorAll('.counter-value');

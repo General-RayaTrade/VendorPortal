@@ -366,6 +366,9 @@
       <Link>wwwroot\js\bootstrap.min.js.map</Link>
     </Content>
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.10\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Users\hossam_fathy\.nuget\packages\webgrease\1.5.2</PkgWebGrease>
   </PropertyGroup>

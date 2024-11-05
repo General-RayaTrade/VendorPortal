@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\utilities\\_stretched-link.css"
     },
     {
+      "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\custom-datatable.css",
+      "PackagePath": "staticwebassets\\css\\custom-datatable.css"
+    },
+    {
       "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -217,6 +221,10 @@
       "PackagePath": "staticwebassets\\img\\boxed-bg.png"
     },
     {
+      "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\img\\cancel.png",
+      "PackagePath": "staticwebassets\\img\\cancel.png"
+    },
+    {
       "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\img\\credit\\american-express.png",
       "PackagePath": "staticwebassets\\img\\credit\\american-express.png"
     },
@@ -295,6 +303,10 @@
     {
       "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\img\\prod-5.jpg",
       "PackagePath": "staticwebassets\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\img\\samsung-logo.png",
+      "PackagePath": "staticwebassets\\img\\samsung-logo.png"
     },
     {
       "Id": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\img\\samsung.png",

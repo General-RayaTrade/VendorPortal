@@ -27,6 +27,70 @@ document.addEventListener('DOMContentLoaded', function () {
     // Show the default section
     //document.querySelector('#orders').style.display = 'block';
 });
+$(document).ready(function () {
+    // Initialize DataTable with server-side processing
+    var table = $('#ordersTable').DataTable({
+        "processing": true,
+        "serverSide": true,
+        "lengthMenu": [50], // Allow user to select page sizes
+        "ajax": {
+            url: "https://localhost:7079/orders/LoadOrders",
+            type: "GET",
+            dataSrc: function (json) {
+                if (json.data.length === 0) {
+                    alert('No data found');
+                }
+                return json.data;
+            }
+        },
+        "columns": [
+            { data: 'orderNumber' },
+            { data: 'orderRef' },
+            {
+                data: 'customerName',
+                render: function (data) {
+                    return data.trim().replace(/- *$/g, "");
+                }
+            },
+            {
+                data: 'dxCreatedDate',
+                render: function (data) {
+                    return new Date(data).toLocaleDateString();
+                }
+            },
+            {
+                data: 'dxStatus',
+                render: function (data) {
+                    return `<span class="badge ${data === "Invoiced" ? "bg-success-custom" : data === "Canceld" ? "bg-error" : "bg-warning"}">${data}</span>`;
+                }
+            }
+        ],
+        "dom": '<"top"f>rt<"bottom"ip><"clear">',
+        "pagingType": "full_numbers"
+    });
+});
+$(document).ready(function () {
+    $('.counter-value').each(function () {
+        var $this = $(this);
+        var countTo = $this.attr('data-count');
+
+        $({ countNum: $this.text() }).animate({
+            countNum: countTo
+        },
+            {
+                duration: 2000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function () {
+                    $this.text(this.countNum);
+                }
+            });
+    });
+});
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const counters = document.querySelectorAll('.counter-value');
 

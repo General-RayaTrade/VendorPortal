@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VendorPortal.Core;
 
 namespace VendorPortal.EF.IRepositories
 {
-    public interface IUnitOfWork //: IDisposable
+    public interface IUnitOfWork : IDisposable
     {
-        //ApplicationDbContext context { get; }
-        //IBaseRepository<RefreshToken> refreshTokens {  get; }
-        //int Complete();
+        ApplicationDbContext context { get; }
+        IBaseRepository<OrderStatus> orderStatus { get; } 
+        IBaseRepository<OrdersXsc> ordersXsc { get; }
+        IBaseRepository<OrdersFlag> ordersFlag { get; }
+
+        int Complete();
     }
 }

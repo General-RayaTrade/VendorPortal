@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -9,17 +10,20 @@ namespace VendorPortal.EF.IRepositories
 {
     public interface IBaseRepository<T> where T : class
     {
-        //T? Get(int Id);
-        //T? Get(Guid Id);
-        //IEnumerable<T> GetAll();
-        //ValueTask<T?> FindAsync(Expression<Func<T, bool>> expression, string[]? includes = null);
-        //IEnumerable<T?> FindAll(Expression<Func<T, bool>>? expression, string[]? includes = null);
-        //IEnumerable<T?> FindAll(Expression<Func<T, bool>> expression,
-        //    int? skip, int? take, Expression<Func<T, object>>? orderBy = null, string? orderByDirection = "ASC");
-        //T? Add(T entity);
-        //Task<T?> AddAsync(T entity);
-        //IEnumerable<T?> AddRange(IEnumerable<T> entities);
-        //void Delete(T entity);
-        //T Update(T entity);
+        T? Get(int Id);
+        T? Get(Guid Id);
+        IEnumerable<T> GetAll();
+        ValueTask<T?> FindAsync(Expression<Func<T, bool>> expression, string[]? includes = null);
+        IEnumerable<T?> FindAll(Expression<Func<T, bool>>? expression, string[]? includes = null);
+        Task<IEnumerable<T?>> FindAllAsync(Expression<Func<T, bool>> expression,
+            int? skip, int? take, Expression<Func<T, object>>? orderBy = null, string? orderByDirection = "ASC");
+        IEnumerable<T?> FindAll(Expression<Func<T, bool>> expression,
+            int? skip, int? take, Expression<Func<T, object>>? orderBy = null, string? orderByDirection = "ASC");
+        T? Add(T entity);
+        Task<T?> AddAsync(T entity);
+        IEnumerable<T?> AddRange(IEnumerable<T> entities);
+        void Delete(T entity);
+        T Update(T entity);
+        Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null);
     }
 }

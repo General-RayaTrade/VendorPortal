@@ -1,0 +1,129 @@
+﻿#ordersTable {
+    border: 1px solid #dee2e6;
+}
+
+    #ordersTable thead {
+        background-color: #007bff;
+        color: white;
+    }
+
+    #ordersTable tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+/*.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+}*/
+/* CSS styles for badges */
+.badge {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 0.9em;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bg-success-custom {
+    background-color: #4ee16f; /* Green */
+}
+
+.bg-warning {
+    background-color: #ffc107; /* Yellow */
+}
+
+.bg-error {
+    background-color: #dc3545; /* Red */
+}
+
+/* Hover effect */
+.badge:hover {
+    transform: scale(1.05);
+}
+
+#ordersTable .search-input {
+    border-radius: 20px;
+    padding: 10px 15px;
+    transition: border-color 0.3s ease;
+}
+
+    #ordersTable .search-input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+#ordersTable .search-button {
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.counter {
+    margin: 5px;
+    text-align: center;
+    position: relative;
+    background-color: #ffffff; /* Background color */
+    border: 1px solid #e0e0e0; /* Light border for definition */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth scale effect on hover */
+}
+
+    .counter:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+    }
+.counter {
+    text-align: center;
+    position: relative;
+}
+
+    .counter .percentage {
+        display: block; /* Stack the percentage below the counter value */
+        font-size: 1.2em; /* Increase font size */
+        color: var(--primary-color); /* Use primary color */
+        font-weight: bold; /* Make it bold */
+        margin-top: 5px; /* Space between the counter value and percentage */
+        transition: color 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    .counter:hover .percentage {
+        color: #FF5722; /* Change color on hover */
+    }
+
+.counter-value {
+    font-size: 2em; /* Increase counter value size */
+    font-weight: bold; /* Bold for emphasis */
+    color: #414856; /* Use a suitable color for the value */
+}
+
+.counter-icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    margin-bottom: 10px; /* Space between icon and counter value */
+}
+.order-description {
+    font-size: 1em; /* Font size */
+    color: #4F29F0; /* Primary color */
+    font-weight: 500; /* Font weight */
+    margin-top: 10px; /* Space above */
+    margin-bottom: 0; /* Remove bottom margin */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 0.5px; /* Spacing between letters */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+    padding: 5px 10px; /* Padding for better spacing */
+    border-radius: 5px; /* Slightly rounded corners */
+    background-color: rgba(79, 41, 240, 0.1); /* Light background for visibility */
+}
+
+.counter:hover .order-description {
+    color: #FF5722; /* Change text color on hover */
+    background-color: rgba(79, 41, 240, 0.2); /* Darken background on hover */
+}
+.nav-sidebar .nav-link p {
+    color: #958b8b;
+}

@@ -1,0 +1,85 @@
+﻿@model IList<VendorPortal.Core.OrdersXsc>
+
+    <style>
+    .bg-success {
+        background-color: #4ee16f; /* Green */
+    }
+    </style>
+<div class="container mt-4">
+    <h3 class="text-center mb-4">Order List</h3>
+    @* <table id="ordersTable" class="display table table-bordered table-hover table-striped align-middle">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th scope="col">Order ID</th>
+                <th scope="col">Customer Name</th>
+                <th scope="col">Product</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderNumber</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.OrderRef</td>
+                    <td>@order.OrderSource</td>
+                    <td>@order.DxCreatedDate.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <span class="badge @(order.DxStatus == "Completed" ? "bg-success" : "bg-warning")">
+                            @order.DxStatus
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table> *@
+   @*  <table id="ordersTable" class="display table table-bordered table-hover table-striped align-middle" style="width:100%">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>Order Number</th>
+                <th>Order Ref</th>
+                <th>Customer Name</th>
+                <th>Order Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here by DataTables -->
+        </tbody>
+    </table>
+ *@
+@*     <link rel="stylesheet" href="~/css/custom-datatable.css" />
+ *@
+
+    <table id="ordersTable" class="table table-hover table-responsive">
+       @*  <form action="" class="search-bar">
+            <input type="search" name="search" pattern=".*\S.*" required>
+            <button class="search-btn" type="submit">
+                <span>Search</span>
+            </button>
+        </form> *@
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().OrderNumber)</th>
+                <th>@Html.DisplayNameFor(model => model.First().OrderRef)</th>
+                <th>@Html.DisplayNameFor(model => model.First().CustomerName)</th>
+                <th>@Html.DisplayNameFor(model => model.First().DxCreatedDate)</th>
+                <th>@Html.DisplayNameFor(model => model.First().DxStatus)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here by DataTables -->
+        </tbody>
+    </table>
+
+</div>
+@section Scripts {
+    <script>
+       
+
+    </script>
+}
+

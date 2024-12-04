@@ -13,6 +13,10 @@ namespace VendorPortal.EF.IRepositories
         T? Get(int Id);
         T? Get(Guid Id);
         IEnumerable<T> GetAll();
+        ValueTask<IEnumerable<T>> GetAllAsync();
+        Task<List<T>> FindAllAsync(
+   Expression<Func<T, bool>> expression,
+   string[]? includes = null);
         ValueTask<T?> FindAsync(Expression<Func<T, bool>> expression, string[]? includes = null);
         IEnumerable<T?> FindAll(Expression<Func<T, bool>>? expression, string[]? includes = null);
         Task<IEnumerable<T?>> FindAllAsync(Expression<Func<T, bool>> expression,

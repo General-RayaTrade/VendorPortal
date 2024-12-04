@@ -12,6 +12,7 @@ E:\VendorPortalSolution\VendorPortal.Core\obj\Debug\net8.0\ref\VendorPortal.Core
 E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.deps.json
 E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.dll
 E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.pdb
+E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.csproj.AssemblyReference.cache
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.GeneratedMSBuildEditorConfig.editorconfig
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.AssemblyInfoInputs.cache
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.AssemblyInfo.cs

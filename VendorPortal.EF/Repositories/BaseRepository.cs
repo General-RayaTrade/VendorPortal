@@ -84,6 +84,22 @@ namespace VendorPortal.EF.Repositories
             }
             return query.ToList();
         }
+        public async Task<List<T>> FindAllAsync(
+    Expression<Func<T, bool>> expression,
+    string[]? includes = null)
+        {
+            IQueryable<T> query = _dbSet;
+
+            if (includes != null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+
+            return await query.Where(expression).ToListAsync();
+        }
 
         public async Task<IEnumerable<T?>> FindAllAsync(Expression<Func<T, bool>> expression,
             int? skip, int? take, Expression<Func<T, object>>? orderBy = null, string? orderByDirection = "DESC")
@@ -149,6 +165,11 @@ namespace VendorPortal.EF.Repositories
             if (predicate != null)
                 return await query.CountAsync(predicate);
             return await query.CountAsync();
+        }
+
+        public async ValueTask<IEnumerable<T>> GetAllAsync()
+        {
+            return await _dbSet.ToListAsync();
         }
     }
 }

@@ -19,10 +19,11 @@ namespace VendorPortalWeb.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var totalOrders = await _orderService.GetTotalOrdersCountAsync(nameof(Vendors.ETISALAT));
-            var canceledOrders = await _orderService.GetCanceledOrdersCountAsync(nameof(Vendors.ETISALAT));
-            var pendingOrders = await _orderService.GetPendingOrdersCountAsync(nameof(Vendors.ETISALAT));
-            var completedOrders = await _orderService.GetCompletedOrdersCountAsync(nameof(Vendors.ETISALAT));
+            string vendor = nameof(Vendors.ETISALAT);
+            var totalOrders = await _orderService.GetTotalOrdersCountAsync(vendor);
+            var canceledOrders = await _orderService.GetCanceledOrdersCountAsync(vendor);
+            var pendingOrders = await _orderService.GetPendingOrdersCountAsync(vendor);
+            var completedOrders = await _orderService.GetCompletedOrdersCountAsync(vendor);
 
             // Calculate percentages
             var canceledPercentage = totalOrders > 0 ? (double)canceledOrders / totalOrders * 100 : 0;

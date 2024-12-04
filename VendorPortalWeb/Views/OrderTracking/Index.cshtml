@@ -1,0 +1,370 @@
+﻿@model dynamic
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<div class="multi-shipment">
+    <div class="multi-shipment-container">
+        <section class="track-shipment-details">
+            <div class="shipment-card">
+                <span class="shipment-tag domestic"> Aramex Shipment </span>
+
+                <div class="shipment-info-container">
+                    <div class="shipment-numbers">
+                        <div class="shipment-info">
+                            <h6>Shipment Number</h6>
+                            <div class="shipment-num">
+                                <h5>@Model.TrackShipmentsResult[0].AWB</h5>
+                                <img src="~/img/ic-truck-dark.svg" alt="Icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shipment-updates" id="dvsLastUpdateId" style="opacity:1;">
+                        <span class="title">Latest Update</span>
+                        <p class="shipment-update-descp">
+                            The shipment has been @Model.TrackShipmentsResult[0].Status[0].UpdateDescription
+                        </p>
+                        <span class="shipment-update-datetime">
+                            @Model.TrackShipmentsResult[0].Status[0].UpdateDateTime.ToLocalTime().ToString("dd MMM yyyy hh:mm:ss tt")
+                        </span>
+                    </div>
+
+                    <!-- Changed HTML code for New button. Note: Please change the whole previous code structure of this -->
+                    <!-- #region Customer Action Section -->
+
+                    <div class="shipment-actions">
+                        <div class="shipment-support" style="display:none">
+                            <button role="button" class="btn">
+                                <img src="/Sitefinity/WebsiteTemplates/aramex/App_Themes/aramex/Images/ic-message.svg" alt="Support" id="imgUrgentSupport" style="display:block">
+                                <img src="/Sitefinity/WebsiteTemplates/aramex/App_Themes/aramex/Images/ic-message-greyed.svg" alt="Support" id="imgGreyedUrgentSupport" style="display:none">
+                                <span>
+                                    Urgent Support
+                                </span>
+                            </button>
+
+                            <div class="tooltip tooltip-support" id="dvUrgentSupport" style="display:block">
+                                <div class="form-group">
+                                    <textarea class="form-control track-form-control" id="support-email" placeholder="Your update here"></textarea>
+                                </div>
+                                <button type="button" class="btn-submit" onclick="SubmitUrgentSupport('/track/shipment-details-new/SubmitUrgentSupport/','50263173833')">Submit</button>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="tooltip tooltip-support readonly" id="dvreadonlyUrgentSupport" style="display:none">
+                                <label>Comment(s)</label>
+                                <p class="support-comment">
+                                </p>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="shipment-notify" style="display:none">
+                            <button role="button" class="btn">
+                                <img src="/Sitefinity/WebsiteTemplates/aramex/App_Themes/aramex/Images/ic-notify.svg" alt="Notify" style="display:block">
+                                <img src="/Sitefinity/WebsiteTemplates/aramex/App_Themes/aramex/Images/ic-notify-greyed.svg" alt="Notify" style="display:none">
+                                <span>
+                                    Notify Me
+                                </span>
+                            </button>
+
+                            <div class="tooltip tooltip-notify" id="dvNotifyMe" style="display:block">
+                                <h6 class="title">Please enter your email to follow the shipment</h6>
+                                <div class="form-group">
+                                    <label for="notify-email">Email</label>
+                                    <input class="form-control track-form-control" id="notify-email" type="email">
+                                </div>
+                                <button type="button" class="btn-submit" onclick="SubmitNotifyMe('/track/shipment-details-new/SubmitNotifyMe/','50263173833')">Submit</button>
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="tooltip tooltip-notify readonly" style="display:none">
+                                <div class="notify-update">
+                                    <label>Email</label>
+                                    <span class="notify-timestamp">
+                                        12:00 AM
+                                    </span>
+                                </div>
+                                <span class="notify-email-content">
+                                </span>
+
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="shipment-status ShipmentDetailsStatusclass1 info" title="@Model.TrackShipmentsResult[0].Status[0].UpdateDescription">
+
+                            <strong style="overflow: hidden; max-width: 140px; max-height: 30px;">@Model.TrackShipmentsResult[0].Status[0].UpdateDescription</strong>
+                        </div>
+
+
+                    </div>
+
+                    <!-- #endregion -->
+                    <!------------------- Changed HTML code for New button ------------------>
+                </div>
+
+                <div class="shipment-track-points">
+                    <span>Origin</span>
+                    <div class="track"></div>
+                    <span>Destination</span>
+                </div>
+
+                <!-- #region Shipment StatusBar -->
+
+                <div class="shipment-progess-container">
+                    <!--Created-->
+                    <div class="shipment-progess-point start done shipment-track-info">
+                        <span class="orgin-info">
+                            <span class="country">Egypt</span>
+                            <span class="city">El Hawamdiah</span>
+                        </span>
+                        <div class="track-check-info">
+                            <div class="track-check">
+                                <div></div>
+                            </div>
+                            <span>Created</span>
+                            <div class="tooltip tooltip-departed">
+                                <h6 class="title">Created Status</h6>
+                                <p class="text">
+                                    Shipment Record was created successfully, will proceed to be received at Aramex origin facility.
+                                </p>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Collected-->
+                    <div class="shipment-progess-point departed done shipment-track-info">
+                        <span class="inbetween-info">
+                            <span class="country"></span>
+                            <span class="city"></span>
+                        </span>
+                        <div class="track-check">
+                            <div></div>
+                        </div>
+                        <span>Collected</span>
+
+                        <div class="tooltip tooltip-departed">
+                            <h6 class="title">Collected Status</h6>
+                            <p class="text">
+                                Shipment was received at Aramex origin facility, will proceed to depart towards destination.
+                            </p>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+
+                    <!--Departed-->
+                    <div class="shipment-progess-point departed done shipment-track-info">
+                        <span class="inbetween-info">
+                            <span class="country"></span>
+                            <span class="city"></span>
+                        </span>
+                        <div class="track-check">
+                            <div></div>
+                        </div>
+                        <span>Departed</span>
+
+                        <div class="tooltip tooltip-departed">
+                            <h6 class="title">Departed Status</h6>
+                            <p class="text">
+                                Shipment has left Aramex origin facility will proceed to be received at destination.
+                            </p>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+
+                    <!--InTransit-->
+                    <div class="shipment-progess-point departed done shipment-track-info">
+                        <span class="inbetween-info">
+                            <span class="country"></span>
+                            <span class="city"></span>
+                        </span>
+                        <div class="track-check">
+                            <div></div>
+                        </div>
+                        <span>In transit</span>
+
+                        <div class="tooltip tooltip-departed">
+                            <h6 class="title">In transit Status</h6>
+                            <p class="text">
+                                Shipment has left Aramex origin facility and is currently moving towards destination.
+                            </p>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+
+                    <!--AtDestination-->
+                    <div class="shipment-progess-point departed done shipment-track-info">
+                        <span class="inbetween-info">
+                            <span class="country"></span>
+                            <span class="city"></span>
+                        </span>
+                        <div class="track-check">
+                            <div></div>
+                        </div>
+                        <span>Arrived at destination</span>
+
+                        <div class="tooltip tooltip-departed">
+                            <h6 class="title">Arrived at destination Status</h6>
+                            <p class="text">
+                                Shipment was received at Aramex destination facility and will be arranged to be delivered.
+                            </p>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+
+                    <!--Returned-->
+                    <!--OutForDelivery or HeldForPickup-->
+                    <div class="shipment-progess-point departed done shipment-track-info">
+                        <span class="inbetween-info">
+                            <span class="country"></span>
+                            <span class="city"></span>
+                        </span>
+                        <div class="track-check">
+                            <div></div>
+                        </div>
+                        <span>Out for delivery</span>
+
+                        <div class="tooltip tooltip-departed">
+                            <h6 class="title">Out for delivery Status</h6>
+                            <p class="text">
+
+                                Shipment has left Aramex facility at destination and on its way to be delivered.
+
+                            </p>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                    <!--Delivered-->
+                    <div class="shipment-progess-point departed end current done shipment-track-info">
+                        <span class="dest-info">
+                            <span class="country">Egypt</span>
+                            <span class="city">Ashmoun</span>
+                        </span>
+                        <div class="track-check-info">
+                            <div class="track-check">
+                                <div></div>
+                            </div>
+                            <span>Delivered</span>
+
+                            <div class="tooltip tooltip-departed">
+                                <h6 class="title">Delivered Status</h6>
+                                <p class="text">
+                                    Shipment Delivery completed Successfully.
+                                </p>
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- #endregion -->
+
+            </div>
+
+            <div class="shipment-details-card" style="padding-bottom:5px">
+                <h1 class="shipment-details-card-title">Tracking Details</h1>
+                <div class="shipment-details-row">
+                    <div class="shipment-details-col">
+                        <div class="shipment-details-info">
+                            <div class="icon">
+                                <img src="~/img/ic-truck-dark.svg" alt="Icon">
+                            </div>
+                            <div>
+                                <span class="shipment-details-title">Shipment Type</span>
+                                <span class="shipment-details-data">Overnight (Parcel) </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shipment-details-col">
+                        <div class="shipment-details-info">
+                            <div class="icon">
+                                <img src="~/img/ic-box-line.svg" alt="Icon" style="height: 24px; width: 21px;">
+                            </div>
+                            <div>
+                                <span class="shipment-details-title">Number of Items</span>
+                                <span class="shipment-details-data">1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shipment-details-col">
+                        <div class="shipment-details-info">
+                            <div class="icon">
+                                <img src="~/img/ic-weight.svg" alt="Icon" style="height: 20px; width: 21px;">
+                            </div>
+                            <div>
+                                <span class="shipment-details-title">Weight</span>
+                                <span class="shipment-details-data">@Model.TrackShipmentsResult[0].Status[0].ChargeableWeight <sup>@Model.TrackShipmentsResult[0].Status[0].WeightUnit</sup></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shipment-details-col empty-div">
+                    </div>
+                    <div class="shipment-details-col empty-div">
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="history-details-card collapse in" id="shipmentHistory" style="
+    display: block;
+">
+                <div class="table-responsive">
+                    <!-- Add 'collected' class in <table> for status (collected) -->
+                    <!-- Add 'delivered' class in <table> for status  (Delivered/Completed)-->
+                    <!-- By default <table> status is created -->
+
+                    <table class="collected">
+                        <thead>
+                            <tr>
+                                <th class="track-check"></th>
+                                <th class="col-date">Date</th>
+                                <th class="col-location">Location</th>
+                                <th class="col-activity">Activity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var status in Model.TrackShipmentsResult[0].Status)
+                            {
+                                <tr>
+                                    <th class="track-check">
+                                        <div class="check-radio">
+                                            <div></div>
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="date-time" style="margin-top:-15px;">
+                                            <span class="date">
+                                               @status.UpdateDateTime.ToLocalTime().ToString("dd MMM yyyy")
+                                            </span>
+                                            <span class="time">
+                                                @status.UpdateDateTime.ToLocalTime().ToString("hh:mm:ss tt")
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="addr" style="margin-top:-10px;">
+                                            <span class="city">
+
+                                            </span>
+                                            <span class="country">
+                                                @status.UpdateLocation
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="activity">
+                                        <div style="margin-top:-4px;">
+                                            @status.UpdateDescription. @status.Comments
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+</div>

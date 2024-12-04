@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using VendorPortal.Core;
+using VendorPortal.Core.Models;
 
 namespace VendorPortal.EF;
 
@@ -21,12 +22,32 @@ public partial class ApplicationDbContext : DbContext
     public virtual DbSet<OrdersFlag> OrdersFlags { get; set; }
 
     public virtual DbSet<OrdersXsc> OrdersXscs { get; set; }
+    public virtual DbSet<OrderConfirmationsData> OrderConfirmationsData { get; set; }
+    public virtual DbSet<OrderJsonDetail> OrderJsonDetails { get; set; }
+    public virtual DbSet<VWcityDistrict> VWcityDistricts { get; set; } = null!;
+    public virtual DbSet<Notification> Notifications { get; set; }
+
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("server=192.168.0.173,34300;Database=ETI_MarketPlace;User ID=sa;Password=Dataadmin2010;integrated security=false;TrustServerCertificate=True;Connection Timeout=3600");
+        => optionsBuilder.UseSqlServer("server=192.168.0.173,34300;Database=ETI_MarketPlace;User ID=sa;Password=Dataadmin2010;integrated security=false;TrustServerCertificate=True;Connection Timeout=3600")
+        .EnableSensitiveDataLogging()
+        .LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information);
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Notification>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Notifica__3214EC07FAB4B465");
+
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.IconClass).HasMaxLength(100);
+            entity.Property(e => e.Title).HasMaxLength(255);
+            entity.Property(e => e.Url).HasMaxLength(500);
+            entity.Property(e => e.VendorName).HasMaxLength(450);
+        });
         modelBuilder.Entity<OrderStatus>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__OrderSta__3214EC07336F76FB");
@@ -210,6 +231,52 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.WarehouseName)
                 .HasMaxLength(100)
                 .HasColumnName("Warehouse Name");
+        });
+
+        modelBuilder.Entity<OrderConfirmationsData>(entity =>
+        {
+            entity.HasKey(e => e.OrderNumber);
+
+            entity.Property(e => e.OrderNumber)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.DeliveryMethod)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.OrderAddress)
+                .HasMaxLength(300)
+                .IsUnicode(false)
+                .UseCollation("Arabic_CI_AI_KS_WS");
+            entity.Property(e => e.OrderMobileNumberOne)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.OrderMobileNumberTwo)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+        });
+        modelBuilder.Entity<OrderJsonDetail>().HasNoKey().ToTable("OrderJsonDetail");
+
+        modelBuilder.Entity<VWcityDistrict>(entity =>
+        {
+            entity.HasNoKey();
+
+            entity.ToView("vWCityDistrict");
+
+            entity.Property(e => e.CNameAr)
+                .HasMaxLength(255)
+                .HasColumnName("C_NameAR");
+
+            entity.Property(e => e.CityId).HasColumnName("CityID");
+
+            entity.Property(e => e.DName)
+                .HasMaxLength(255)
+                .HasColumnName("D_Name");
+
+            entity.Property(e => e.DNameAr)
+                .HasMaxLength(255)
+                .HasColumnName("D_NameAR");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
         });
 
         OnModelCreatingPartial(modelBuilder);

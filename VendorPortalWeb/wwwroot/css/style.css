@@ -145,7 +145,9 @@ a:not([href]):not([tabindex]) {
   text-decoration: none; }
   a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
     color: inherit;
-    text-decoration: none; }
+    text-decoration: none; 
+
+  }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
 
@@ -3686,7 +3688,10 @@ input[type="button"].btn-block {
     -ms-flex-direction: row;
     flex-direction: row; }
     .navbar-expand .navbar-nav .dropdown-menu {
-      position: absolute; }
+        position: absolute;
+        max-height: 250px;
+        overflow: auto;
+    }
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
@@ -5536,9 +5541,11 @@ button.bg-dark:focus {
   display: table-cell !important; }
 
 .d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important; }
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    /*display: flex !important;*/
+    display: flex;
+}
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -8321,10 +8328,10 @@ a[data-toggle="collapse"] {
   transition: all 0.3s; }
 
 .btn.btn-primary {
-  background: #30e3ca;
+  /*background: #30e3ca;*/
   border-color: #30e3ca; }
   .btn.btn-primary:hover, .btn.btn-primary:focus {
-    background: #30e3ca !important;
+    /*background: #30e3ca !important;*/
     border-color: #30e3ca !important; }
 
 .footer p {
@@ -8333,8 +8340,8 @@ a[data-toggle="collapse"] {
 .form-control {
   height: 40px !important;
   background: #fff;
-  color: #fff !important;
-  font-size: 13px;
+/*  color: #fff;
+*/  font-size: 13px;
   border-radius: 4px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;

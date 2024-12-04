@@ -1,85 +1,550 @@
 ﻿@model IList<VendorPortal.Core.OrdersXsc>
 
-    <style>
-    .bg-success {
-        background-color: #4ee16f; /* Green */
+<style>
+    #ordersTable td:nth-child(1), /* OrderNumber */
+    #ordersTable td:nth-child(3) /* CustomerName */ {
+        padding: 2px 5px !important; /* Minimal padding */
     }
-    </style>
-<div class="container mt-4">
-    <h3 class="text-center mb-4">Order List</h3>
-    @* <table id="ordersTable" class="display table table-bordered table-hover table-striped align-middle">
-        <thead class="bg-primary text-white">
-            <tr>
-                <th scope="col">Order ID</th>
-                <th scope="col">Customer Name</th>
-                <th scope="col">Product</th>
-                <th scope="col">Quantity</th>
-                <th scope="col">Order Date</th>
-                <th scope="col">Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var order in Model)
-            {
-                <tr>
-                    <td>@order.OrderNumber</td>
-                    <td>@order.CustomerName</td>
-                    <td>@order.OrderRef</td>
-                    <td>@order.OrderSource</td>
-                    <td>@order.DxCreatedDate.ToString("dd/MM/yyyy")</td>
-                    <td>
-                        <span class="badge @(order.DxStatus == "Completed" ? "bg-success" : "bg-warning")">
-                            @order.DxStatus
-                        </span>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table> *@
-   @*  <table id="ordersTable" class="display table table-bordered table-hover table-striped align-middle" style="width:100%">
-        <thead class="bg-primary text-white">
-            <tr>
-                <th>Order Number</th>
-                <th>Order Ref</th>
-                <th>Customer Name</th>
-                <th>Order Date</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Data will be populated here by DataTables -->
-        </tbody>
-    </table>
- *@
-@*     <link rel="stylesheet" href="~/css/custom-datatable.css" />
- *@
 
-    <table id="ordersTable" class="table table-hover table-responsive">
-       @*  <form action="" class="search-bar">
-            <input type="search" name="search" pattern=".*\S.*" required>
-            <button class="search-btn" type="submit">
-                <span>Search</span>
-            </button>
-        </form> *@
-        <thead class="bg-primary text-white">
-            <tr>
-                <th>@Html.DisplayNameFor(model => model.First().OrderNumber)</th>
-                <th>@Html.DisplayNameFor(model => model.First().OrderRef)</th>
-                <th>@Html.DisplayNameFor(model => model.First().CustomerName)</th>
-                <th>@Html.DisplayNameFor(model => model.First().DxCreatedDate)</th>
-                <th>@Html.DisplayNameFor(model => model.First().DxStatus)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Data will be populated here by DataTables -->
-        </tbody>
-    </table>
+        #ordersTable td:nth-child(4){
+        width: 100px !important;
+        max-width: 150px !important;
+        min-width: 70px !important;
+        overflow: hidden !important;
+        }
 
+        #ordersTable td:nth-child(3){
+            width: 150px;
+            max-width: 150px;
+            min-width: 100px;
+            overflow: hidden;
+        }
+    /* Overall Styling for Table */
+    #ordersTable {
+        padding: 5px !important;
+        width: 100% !important; /* Full-width for responsive display */
+        table-layout: auto !important;
+    }
+
+        #ordersTable th, #ordersTable td {
+            padding: 4px !important;
+            font-size: 0.7em !important;
+            font-weight: bold !important;
+            white-space: nowrap; /* Prevents wrapping */
+        }
+
+    /* Styling for Dropdown and Ellipsis Icon */
+    .table-dropdown .dropdown-menu {
+        position: absolute !important;
+        transform: translateX(-32%) translateY(10px) !important;
+        min-width: 120px !important;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15) !important;
+        z-index: 9999999999999 !important;
+        background-color: #ffffff !important;
+        border-radius: 0.25rem !important;
+    }
+
+        .table-dropdown .dropdown-menu .dropdown-item {
+            padding: 6px 10px !important;
+            font-size: 0.8em !important;
+            color: #fff !important;
+            /* margin: 2px 5px !important; */
+            display: flex !important;
+            justify-content: center !important;
+            transition: background-color 0.3s ease, transform 0.3s ease !important;
+            width: 100px;
+            margin: 1px auto !important;
+            border-radius: 3px;
+        }
+
+    /* Button colors */
+    .dropdown-item.confirm-order {
+        background-color: #38dd5e !important;
+    }
+
+    .dropdown-item.edit-order {
+        background-color: #007bff !important;
+    }
+
+    .dropdown-item.delete-order {
+        background-color: #dc3545 !important;
+    }
+
+    /* Button hover animations */
+    .table-dropdown .dropdown-menu .dropdown-item:hover {
+        transform: scale(1.1) !important;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    /* Ellipsis icon styling */
+    .fas.fa-ellipsis-v {
+        padding: 3px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: transform 0.3s ease !important;
+    }
+
+        .fas.fa-ellipsis-v:hover {
+            transform: rotate(90deg) scale(1.1) !important;
+        }
+
+    .table-hover tbody tr {
+        transition: all 0.3s ease !important;
+        box-sizing: border-box !important; /* Ensure padding and borders are included */
+    }
+    /* Row hover and pagination styles */
+    .table-hover tbody tr:hover {
+        background-color: #f5f5f5 !important;
+        /* transform: scale(1.03) !important; /* Slightly grow on hover */ */
+        overflow: hidden !important;
+    }
+
+    .dataTables_paginate .paginate_button {
+        padding: 3px 6px !important;
+        font-size: 0.8em !important;
+        background-color: #ffffff !important;
+    }
+/* Disable animations and transitions when the .no-animation class is applied */
+#ordersTable.no-animation *,
+#ordersTable.no-animation {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Add fade-in animation for table rows */
+@@keyframes fadeIn {
+    from {
+            opacity: 0 !important;
+            transform: translateY(10px) !important;
+    }
+    to {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+    }
+}
+
+#ordersTable tbody tr.fade-in {
+        animation: fadeIn 0.5s ease-in-out !important;
+}
+
+/* Ensure default hover styling still works */
+#ordersTable tbody tr:hover {
+    background-color: #f5f5f5 !important;
+    transform: scale(1.03) !important;
+}
+
+    #ordersTable.no-hover tbody tr:hover {
+        background-color: initial !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+#responseMessage {
+    position: fixed;
+    top: 20px;
+    right: 35%;
+    z-index: 1050;
+    width: 300px;
+    display: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    animation: shake 0.5s ease-in-out;
+}
+
+/* Alert Colors */
+#responseMessage.success {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: 1px solid #388e3c;
+}
+
+#responseMessage.danger {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: 1px solid #d32f2f;
+}
+
+/* Shake Animation */
+@@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+/* Fade In/Out */
+.fade-in {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fade-out {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+    
+    .btn-close {
+        --bs-btn-close-color: #000;
+        --bs-btn-close-bg: url('/img/close-button.svg');
+        --bs-btn-close-opacity: 0.5;
+        --bs-btn-close-hover-opacity: 0.75;
+        --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        --bs-btn-close-focus-opacity: 1;
+        --bs-btn-close-disabled-opacity: 0.25;
+        --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+        box-sizing: content-box;
+        width: 1em;
+        height: 1em;
+        padding: .25em .25em;
+        color: var(--bs-btn-close-color);
+        background: transparent var(--bs-btn-close-bg) center / 1em auto no-repeat;
+        border: 0;
+        border-radius: .375rem;
+        opacity: var(--bs-btn-close-opacity);
+    }
+
+    .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+</style>
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Order Management</h4>
+            <p class="text-muted">Manage and track all orders</p>
+        </div>
+        <div id="responseMessage" class="mt-3" style="display:none;"></div>
+    </div>
+
+    <div class="row">
+        <div id="tableLoader" class="loading-overlay" style="display: none;">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <!-- Cancel Order Confirmation Modal -->
+            <div class="modal fade" id="cancelOrderModal" tabindex="-1" aria-labelledby="cancelOrderModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="cancelOrderModalLabel">Cancel Order</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" style="background-image: " aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="orderRefInput">Enter Order Reference:</label>
+                            <input type="text" id="orderRefInput" class="form-control" placeholder="Order Reference">
+                            <div id="orderRefError" class="text-danger mt-2" style="display:none;">Order reference is incorrect. Please try again.</div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" id="confirmCancelBtn">Cancel Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DataTable goes here -->
+            <table id="ordersTable" class="table table-striped table-hover mt-2">
+                <thead class="bg-primary text-white">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.First().OrderNumber)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().OrderRef)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Awb)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().CustomerName)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().CustomerMobile)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().PaymentMethod)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DxCreatedDate)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().DxStatus)</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data populated by DataTables -->
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
+
 @section Scripts {
     <script>
-       
+        function CancelOrder(orderReference, vendor) {
+            // Store the real order reference for validation
+            var realOrderReference = orderReference;
+
+            // Open the modal to confirm the cancel action
+            $('#cancelOrderModal').modal('show');
+
+            // When the user clicks the 'Cancel Order' button in the modal
+            $('#confirmCancelBtn').on('click', function () {
+                // Get the value entered by the user in the input field
+                var enteredOrderRef = $('#orderRefInput').val().trim();
+
+                // Check if the entered order reference matches the real order reference
+                if (enteredOrderRef === realOrderReference) {
+                    $('#cancelOrderModal').modal('hide'); // Close the modal
+
+                    // Proceed with the AJAX call to cancel the order
+                    var formData = {
+                        orderReference: orderReference,
+                        vendor: vendor
+                    };
+
+                    $.ajax({
+                        url: '@Url.Action("CancelOrder", "Orders")',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify(formData),
+                        success: function (response) {
+                            showNotification(response.message, 'success');
+                            $('#cancelOrderModal').modal('hide'); // Close the modal
+                        },
+                        error: function (xhr) {
+                            var errorMessage = xhr.responseText || 'An error occurred.';
+                            showNotification(errorMessage, 'danger');
+                            $('#cancelOrderModal').modal('hide'); // Close the modal in case of error
+                        }
+                    });
+                } else {
+                    // Show the error message if the order references don't match
+                    $('#orderRefError').show();
+                }
+            });
+        }
+
+
+        function TrackOrder(AWB) {
+            // Example AJAX call
+            var formData = {
+                awb: AWB
+            };
+            $.ajax({
+                url: '@Url.Action("Index", "OrderTracking")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    // Construct the real URL dynamically based on the AWB value
+                    var realUrl = `/OrderTracking?AWB=${AWB}`;  // This is the URL that should appear in the browser
+
+                    // Open the new window with the real URL
+                    var newWindow = window.open(realUrl, '_blank');  // Open with real URL
+
+                    if (newWindow) {
+                        // Write the server response (HTML) to the new window's document
+                        newWindow.document.write(response);
+                        newWindow.document.close();  // Close the document to complete l
+                    }
+                },
+                error: function (xhr) {
+                    var errorMessage = xhr.responseText || 'An error occurred.';
+                    showNotification(errorMessage, 'danger');
+                }
+            });
+        }
+
+        function confirmOrder(orderReference) {
+            const formData = { orderReference };
+
+            $.ajax({
+                url: '@Url.Action("Index", "Confirmation")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    const realUrl = `/Confirmation?orderReference=${encodeURIComponent(orderReference)}`;
+                    const newWindow = window.open(realUrl, '_blank');
+
+                    if (newWindow) {
+                        newWindow.document.open();
+                        newWindow.document.write(response);
+                        newWindow.document.close();
+                    } else {
+                       showNotification("Unable to open a new window. Please check your browser settings.", 'warning');
+                    }
+                },
+                error: function (xhr) {
+                    const errorMessage = xhr.responseText || 'An error occurred while confirming the order.';
+                    showNotification(errorMessage, 'danger');
+                }
+            });
+        }
+
+
+        function showNotification(message, type) {
+            var notification = $('#responseMessage');
+
+            // Ensure the notification is visible and reset any existing animations
+            notification.stop(true, true).css('animation', 'none'); // Stop ongoing animations and clear styles
+            void notification[0].offsetWidth; // Trigger reflow to reset animation
+
+            // Set the message and alert type
+            notification
+                .removeClass('success danger fade-in fade-out') // Remove all previous classes
+                .addClass(type) // Add the new alert type class
+                .html(message)
+                .fadeIn(500); // Fade in the notification
+
+            // Apply shake effect
+            notification.css('animation', 'shake 0.5s ease-in-out');
+
+            // Automatically fade out after 2 seconds
+            setTimeout(function () {
+                notification.fadeOut(300, function () {
+                    notification.removeClass('fade-in fade-out'); // Clean up classes after fade-out
+                });
+            }, 2000);
+        }
+
+
+        $(document).ready(function () {
+
+            var hoverState = 0;
+            var table = $('#ordersTable').DataTable({
+                // "processing": true,
+                "serverSide": true,
+                "lengthMenu": [50],
+                "ajax": {
+                    "url": "@Url.Action("LoadOrders", "Orders")",
+                    "type": "GET",
+                    "data": function (d) {
+                        d.searchValue = d.search.value; // Add search value to the request
+                    },
+                    "dataSrc": function (json) {
+                        $('#tableLoader').hide();
+                        if (json.data.length === 0) {
+                            $('#ordersTable').hide();
+                            $('#responseMessage').html('<div class="alert alert-warning">No orders found.</div>').show();
+                        } else {
+                            $('#ordersTable').show();
+                            $('#responseMessage').hide();
+                        }
+                        return json.data;
+                    }
+                },
+                "columns": [
+                    { data: 'orderNumber' },
+                    { data: 'orderRef' },
+                    { data: 'awb' },
+                    { data: 'customerName', render: function (data) { return data.trim().replace(/- *$/g, ""); } },
+                    { data: 'customerMobile' },
+                    { data: 'paymentMethod' },
+                    { data: 'dxCreatedDate', render: function (data) { return new Date(data).toLocaleDateString(); } },
+                    {
+                        data: 'dxStatus',
+                        render: function (data) {
+                            const statusClass = data === "Invoiced" ? "bg-success-custom" : data === "Canceled" ? "bg-error" : "bg-warning";
+                            return `<span class="badge ${statusClass}" title="Status: ${data}">${data}</span>`;
+                        }
+                    },
+                    {
+                        data: null,
+                        render: function (data, type, row) {
+                            const confirmOrderUrl = `@Url.Action("Index", "Confirmation")?orderReference=${row.orderRef}`;
+                            const confirmOrderButton = row.dxStatus.toLowerCase() === "openorder"
+                                ? `<button class="dropdown-item confirm-order" onclick="confirmOrder('${row.orderRef}')" style="cursor: pointer;"> Confirm Order </button>`
+                                : `<button class="dropdown-item edit-order" onclick="TrackOrder('${row.awb}')" style="cursor: pointer;"> Track Order </button>`;
+
+                            const cancelOrderButton = `<button class="dropdown-item delete-order" onclick="CancelOrder('${row.orderRef}', '${row.orderSource}')" style="cursor: pointer;"> Cancel Order </button>`;
+
+                            return `
+                    <div class="dropdown table-dropdown">
+                        <i class="fas fa-ellipsis-v" data-bs-toggle="dropdown"></i>
+                        <div class="dropdown-menu">
+                            ${confirmOrderButton}
+                            ${cancelOrderButton}
+                        </div>
+                    </div>
+                `;
+                        }
+                    }
+                ],
+                "dom": '<"top"f>rt<"bottom"ip><"clear">',
+                "pagingType": "full_numbers",
+                "initComplete": function () {
+                    $('#tableLoader').hide();
+                },
+                // Show loading layout before table redraws
+                "preDrawCallback": function (settings) {
+                    $('#tableLoader').show(); // Show the loading layout
+                    $('#ordersTable').css('pointer-events', 'none'); // Disable table interactions
+                },
+
+                // Hide loading layout after table redraws
+                "drawCallback": function (settings) {
+                    $('#tableLoader').hide(); // Hide the loading layout
+                    $('#ordersTable').css('pointer-events', 'auto'); // Re-enable table interactions
+                }
+            });
+
+            // Show loading indicator when search is being processed
+            $('#ordersTable_filter input').on('keyup', function () {
+                console.log("Input");
+                if ($('#ordersTable_filter input').value !== "") { 
+                    console.log("In");
+                    $('#tableLoader').show();  // Show loading indicator
+                }
+                table.ajax.reload(function () {
+                    $('#tableLoader').hide();  // Hide loading indicator once the data is loaded
+                });
+            });
+
+            // Hide loading indicator after search is completed (xhr event)
+            table.on('xhr', function () {
+                console.log("End");
+                
+                $('#tableLoader').hide();  // Hide loading indicator once the data is loaded
+            });
+            $('#ordersTable').on('processing.dt', function (e, settings, processing) {
+                // Disable table interactions during processing
+                $('#ordersTable').css('pointer-events', processing ? 'none' : 'auto');
+            });
+
+
+            $(document).on('show.bs.dropdown', '.table-dropdown', function () {
+                if (hoverState === 0) {
+                    $('#ordersTable').addClass('no-hover'); // Disable hover transitions
+                    hoverState++;
+                    // console.log("Hover State Open= " + hoverState);
+                }
+                else if (hoverState === 1) {
+                    hoverState++;
+                    // console.log("Hover State Open= " + hoverState);
+
+                }
+            });
+            
+            $(document).on('hide.bs.dropdown', '.table-dropdown', function () {
+                if (hoverState === 1) {
+                    $('#ordersTable').removeClass('no-hover'); // Re-enable hover transitions
+                    hoverState--;
+                    // console.log("Hover State CLose = " + hoverState);
+                }
+                else {
+                    hoverState--;
+                    // console.log("Hover State close= " + hoverState);
+                }
+            });
+        });
+
 
     </script>
 }
-

@@ -1,0 +1,26 @@
+﻿@model IList<VendorPortal.EF.Notification>
+<span class="dropdown-item dropdown-header">@Model.Count() Notifications</span>
+<div class="dropdown-divider"></div>
+@foreach (var notification in Model)
+    {
+    <a href="#" class="dropdown-item" title="@($"{notification.Title}\n{notification.Message}")">
+        <i class="@notification.IconClass"></i> @notification.Title
+        <span class="float-right text-muted text-sm">@notification.CreatedAt</span>
+    </a>
+        <div class="dropdown-divider"></div>
+    }
+    <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: '/Notification/GetNotifications',
+                method: 'GET',
+                success: function (data) {
+                    $('#notification-container').html(data);
+                }
+            });
+        });
+    </script>
+}

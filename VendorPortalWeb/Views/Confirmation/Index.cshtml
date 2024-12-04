@@ -1,0 +1,283 @@
+﻿@model VendorPortal.Core.Models.ConfirmationOrderData
+@{
+    ViewData["Title"] = "Shipping Details";
+    var cityRegionMapJson = Json.Serialize(
+        Model.district
+        .Where(d => !string.IsNullOrEmpty(d.CNameAr))
+        .GroupBy(d => new { d.CNameAr, d.CityId })
+        .ToDictionary(
+            g => $"{g.Key.CNameAr}_{g.Key.CityId}",
+            g => g.Select(d => new { Name = d.DNameAr, Id = d.Id })
+                .Where(d => !string.IsNullOrEmpty(d.Name))
+                .Distinct()
+                .ToList()
+        )
+    );
+}
+
+<style>
+    input{
+        color: black !important;
+    }
+</style>
+<div class="container mt-4">
+    <div class="card shadow-lg rounded">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Order Number: @Model.salesOrderNumber</h4>
+        </div>
+        <div class="card-body p-4">
+            <div id="responseMessage" class="mt-3"></div>
+            <form id="shippingForm" class="needs-validation" novalidate>
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label for="date" class="form-label">DxCreationDate</label>
+                        <input type="date" class="form-control" id="date" value="@Model.dxCreationDate.ToString("yyyy-MM-dd")" disabled />
+                    </div>
+                    <div class="col-md-8">
+                        <label for="shippingAddress" class="form-label">Shipping Address*</label>
+                        <input type="text" class="form-control" id="shippingAddress" value="@Model.shippingAddress" required />
+                        <div class="invalid-feedback">Please enter a shipping address.</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="shippingCity" class="form-label">Shipping City*</label>
+                        <code class="d-block mb-1">@Model.selectedCityName</code>
+                        <select class="form-select custom-select" id="shippingCity" required>
+                            <option value="">Select a city...</option>
+                            @foreach (var dis in Model.district.DistinctBy(city => city.CNameAr))
+                            {
+                                <option value="@dis.CityId">@dis.CNameAr</option>
+                            }
+                        </select>
+                        <div class="invalid-feedback">Please select a city.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="shippingRegion" class="form-label">Shipping Region*</label>
+                        <code class="d-block mb-1">@Model.selectedDistrictName</code>
+                        <select class="form-select custom-select" id="shippingRegion" required>
+                            <option value="">Select a region...</option>
+                        </select>
+                        <div class="invalid-feedback">Please select a region.</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="firstMobile" class="form-label">First Mobile*</label>
+                        <input type="tel" class="form-control" id="firstMobile" value="@Model.firstMobileNumber" required />
+                        <div class="invalid-feedback">Please enter a valid mobile number.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="secondMobile" class="form-label">Second Mobile</label>
+                        <input type="tel" class="form-control" id="secondMobile" value="@Model.secondMoblieNumber" />
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="deliveryDate" class="form-label">Delivery Date</label>
+                        <input type="date"
+                               class="form-control"
+                               id="deliveryDate"
+                               min="@DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")"
+                               value="@Model.deleiveryDate.ToString("yyyy-MM-dd")"
+                               oninput="preventFridaySelection(this)" />
+                        <div id="dateError" class="text-danger" style="display:none;">
+                            Fridays are not allowed. Please select another day.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="shippingMethod" class="form-label">Shipping Method*</label>
+                        <select class="form-select custom-select" id="shippingMethod" required>
+                            <option value="Raya Express">Raya Express</option>
+                            <option value="Raya Rent">Raya Rent</option>
+                            <option value="Aramex">Aramex</option>
+                            <option value="Aramex HA">Aramex HA</option>
+                        </select>
+                        <div class="invalid-feedback">Please select a shipping method.</div>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <button type="button" class="btn btn-success mt-3" onclick="showConfirmationModal()">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Confirmation Modal -->
+<div class="modal fade" id="confirmSaveModal" tabindex="-1" aria-labelledby="confirmSaveModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmSaveModalLabel">Confirm Save</h5>
+                @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+            </div>
+            <div class="modal-body">
+                Are you sure you want to save the changes?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success" onclick="saveForm()">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Include jQuery and Select2 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <script type="text/javascript">
+        const cityRegionMap = @Html.Raw(@cityRegionMapJson);
+
+        $(document).ready(function () {
+            const deliveryDateInput = document.getElementById("deliveryDate");
+            if (deliveryDateInput && deliveryDateInput.value) {
+                preventFridaySelection(deliveryDateInput);
+            }
+            // Initialize Select2 for each dropdown
+            $('.select2').select2({
+                placeholder: "Search...",
+                allowClear: true
+            });
+
+            // Set the selected values from the model for city and region
+            $('#shippingCity').val('@Model.selectedCityId').trigger('change');
+            $('#shippingRegion').val('@Model.selectedDistrictId');
+
+            // Populate regions based on city selection
+            $('#shippingCity').change(function () {
+                var selectedCityName = $(this).find("option:selected").text();
+                var selectedCityId = $(this).val();
+                var cityKey = selectedCityName + "_" + selectedCityId;
+                var shippingRegionSelect = $('#shippingRegion');
+
+                shippingRegionSelect.empty().append('<option value="">Select a region...</option>');
+
+                if (cityRegionMap[cityKey]) {
+                    cityRegionMap[cityKey].forEach(function (region) {
+                        shippingRegionSelect.append('<option value="' + region.id + '">' + region.name + '</option>');
+                    });
+                }
+
+                // Update selected region after population
+                shippingRegionSelect.val('@Model.selectedDistrictId').trigger('change');
+            });
+
+            // Trigger the change event to populate regions on page load
+            $('#shippingCity').trigger('change');
+
+            // Enable form validation
+            $('#shippingForm').on('submit', function (event) {
+                event.preventDefault();
+                if (this.checkValidity() === false) {
+                    event.stopPropagation();
+                } else {
+                    showConfirmationModal();
+                }
+                $(this).addClass('was-validated');
+            });
+        });
+
+        function showConfirmationModal() {
+            new bootstrap.Modal(document.getElementById('confirmSaveModal')).show();
+        }
+        function saveForm() {
+
+            // Example AJAX call
+            var formData = {
+                Ordernumber: "@Model.salesOrderNumber",
+                BusinessUnitId: "27",
+                districtId: $('#shippingRegion').val(),
+                DeliveryDate: $('#deliveryDate').val(),
+                street: $('#shippingAddress').val(),
+                MobileNumber1: $('#firstMobile').val(),
+                MobileNumber2: $('#secondMobile').val(),
+                deliveryMethod: $('#shippingMethod option:selected').text(),
+                CreateBy: "@Model.createBy",
+                AWB: "None",
+                Email: "@Model.email",
+                cityId: $('#shippingCity').val(),
+            };
+            $.ajax({
+                url: '@Url.Action("ConfirmOrder", "Confirmation")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    $('#responseMessage').html('<div class="alert alert-success">Order confirmed successfully!</div>');
+                },
+                error: function (xhr) {
+                    var errorMessage = xhr.responseText || 'An error occurred.';
+                    $('#responseMessage').html('<div class="alert alert-danger">' + errorMessage + '</div>');
+                }
+            });
+
+            // Close the modal after saving
+            var modal = bootstrap.Modal.getInstance(document.getElementById('confirmSaveModal'));
+            modal.hide();
+        }
+    </script>
+    <script>
+        function preventFridaySelection(input) {
+            const selectedDate = new Date(input.value);
+            const dayOfWeek = selectedDate.getUTCDay(); // 0 (Sunday) to 6 (Saturday)
+            const errorMessage = document.getElementById("dateError");
+
+            if (dayOfWeek === 5) { // 5 is Friday
+                // Clear the invalid date and show an error message
+                input.value = '';
+                errorMessage.style.display = 'block';
+            } else {
+                errorMessage.style.display = 'none';
+            }
+        }
+    </script>
+
+
+    <!-- Custom Styles -->
+    <style>
+        .custom-select {
+            padding: 0.5rem 1.25rem;
+            font-size: 1rem;
+            border: 1px solid #ced4da;
+            border-radius: 0.375rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+            .custom-select:focus {
+                border-color: #80bdff;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
+
+            .custom-select option {
+                padding: 10px;
+            }
+
+            .custom-select:hover {
+                border-color: #0069d9;
+                cursor: pointer;
+            }
+
+        .form-control, .select2-selection {
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            padding: 0.75rem;
+        }
+
+        .form-select.custom-select {
+            padding-right: 1.5rem;
+        }
+
+        .select2-container .select2-selection--single {
+            height: calc(2.25rem + 2px);
+            padding: 0.5rem 1.25rem;
+            font-size: 1rem;
+            border-radius: 0.375rem;
+        }
+    </style>
+}

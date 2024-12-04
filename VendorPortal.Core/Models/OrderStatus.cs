@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace VendorPortal.Core;
+namespace VendorPortal.EF;
 
 public partial class OrderStatus
 {

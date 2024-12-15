@@ -10,6 +10,7 @@ E:\VendorPortalSolution\VendorPortal.Core\obj\Debug\net8.0\refint\VendorPortal.C
 E:\VendorPortalSolution\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.pdb
 E:\VendorPortalSolution\VendorPortal.Core\obj\Debug\net8.0\ref\VendorPortal.Core.dll
 E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.deps.json
+E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.runtimeconfig.json
 E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.dll
 E:\VendorPortal\VendorPortal.Core\bin\Debug\net8.0\VendorPortal.Core.pdb
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.csproj.AssemblyReference.cache
@@ -21,4 +22,5 @@ E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.sourcelink.
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.dll
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\refint\VendorPortal.Core.dll
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.pdb
+E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\VendorPortal.Core.genruntimeconfig.cache
 E:\VendorPortal\VendorPortal.Core\obj\Debug\net8.0\ref\VendorPortal.Core.dll

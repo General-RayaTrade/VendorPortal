@@ -1,26 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using VendorPortal.Core;
+﻿using VendorPortal.Core;
 using VendorPortal.Core.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace VendorPortal.EF;
 
+
 public partial class ApplicationDbContext : DbContext
 {
-    public ApplicationDbContext()
-    {
-    }
+    public ApplicationDbContext() { }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-    {
-    }
+        : base(options) { }
 
     public virtual DbSet<OrderStatus> OrderStatuses { get; set; }
-
     public virtual DbSet<OrdersFlag> OrdersFlags { get; set; }
-
     public virtual DbSet<OrdersXsc> OrdersXscs { get; set; }
     public virtual DbSet<OrderConfirmationsData> OrderConfirmationsData { get; set; }
     public virtual DbSet<OrderJsonDetail> OrderJsonDetails { get; set; }

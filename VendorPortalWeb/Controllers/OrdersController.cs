@@ -3,9 +3,11 @@ using VendorPortal.Core.Consts;
 using VendorPortal.Core.IServices;
 using System.Linq;
 using VendorPortal.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace VendorPortal.Web.Controllers
 {
+    //[Authorize]
     public class OrdersController : Controller
     {
         private readonly IOrderService _orderService;

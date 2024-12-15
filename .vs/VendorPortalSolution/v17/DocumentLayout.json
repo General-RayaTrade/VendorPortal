@@ -3,12 +3,108 @@
   "WorkspaceRootPath": "E:\\VendorPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\ordertrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\ordertrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\vendorportal.ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\vendorportal.ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\aspnetusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\aspnetusertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\aspnetuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\aspnetuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\aspnetuserclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\aspnetuserclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\aspnetuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\aspnetuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\aspnetrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\aspnetrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\aspnetroleclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\aspnetroleclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\vendorportal.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\vendorportal.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\vendorportal.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|solutionrelative:vendorportal.service\\vendorportal.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\vendorportal.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\vendorportal.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\confirmationorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\confirmationorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\notificationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|solutionrelative:vendorportal.service\\services\\notificationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\ordertrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\ordertrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\ordertrackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\aramex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|solutionrelative:vendorportal.service\\services\\aramex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\views\\notification\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,24 +139,12 @@
       "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\updateetiorderstatusroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\dynamicsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|solutionrelative:vendorportal.service\\services\\dynamicsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\notificationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|solutionrelative:vendorportal.service\\services\\notificationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\ivendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\ivendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\wwwroot\\css\\alt\\adminlte.core.min.css.map||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -103,14 +179,6 @@
       "RelativeMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|solutionrelative:vendorportal.service\\services\\signalrnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|e:\\vendorportal\\vendorportalweb\\vendorportal.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\vendorportal.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\infrastructure\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\infrastructure\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -123,28 +191,8 @@
       "RelativeMoniker": "D:0:0:{7392A52A-5074-4920-8AED-8AC156B13056}|VendorPortalWeb\\VendorPortal.Web.csproj|solutionrelative:vendorportalweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\vendorportal.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\vendorportal.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\confirmationorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\confirmationorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B26104E-55CB-42AD-9EC8-7B34E1F7CC77}|VendorPortal.Service\\VendorPortal.Service.csproj|e:\\vendorportal\\vendorportal.service\\services\\confirmationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|e:\\vendorportal\\vendorportal.core\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933DF03C-E2A8-434C-B13D-28D0F16ABC1B}|VendorPortal.Core\\VendorPortal.Core.csproj|solutionrelative:vendorportal.core\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\vendorportal.ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|solutionrelative:vendorportal.ef\\vendorportal.ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1A46B01-9922-4F8E-A491-B79EE034DFD2}|VendorPortal.EF\\VendorPortal.EF.csproj|e:\\vendorportal\\vendorportal.ef\\irepositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -326,7 +370,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -354,7 +398,371 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "VendorPortalWeb\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:46:38.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VendorPortalWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T13:13:08.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "VendorPortal.EF\\Repositories\\BaseRepository.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "VendorPortal.EF\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:54:10.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "VendorPortal.EF\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "VendorPortal.EF\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:54:42.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Program.cs",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Program.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Program.cs",
+              "RelativeToolTip": "VendorPortalWeb\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:50:41.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:54:52.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "VendorPortal.EF\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\ApplicationDbContext.cs",
+              "RelativeToolTip": "VendorPortal.EF\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:20:19.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\NotificationController.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "VendorPortalWeb\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T07:28:42.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "VendorPortalWeb\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T08:56:53.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AspNetUserToken.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUserToken.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AspNetUserToken.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUserToken.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\AspNetUserToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:34:10.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VendorPortal.EF.csproj",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\VendorPortal.EF.csproj",
+              "RelativeDocumentMoniker": "VendorPortal.EF\\VendorPortal.EF.csproj",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\VendorPortal.EF.csproj",
+              "RelativeToolTip": "VendorPortal.EF\\VendorPortal.EF.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T11:46:36.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AspNetUser.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUser.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AspNetUser.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUser.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\AspNetUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:33:13.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AspNetUserClaim.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUserClaim.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AspNetUserClaim.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUserClaim.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\AspNetUserClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:34:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AspNetUserLogin.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUserLogin.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AspNetUserLogin.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetUserLogin.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\AspNetUserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:34:06.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AspNetRole.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetRole.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AspNetRole.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetRole.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\AspNetRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:34:31.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AspNetRoleClaim.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetRoleClaim.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AspNetRoleClaim.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AspNetRoleClaim.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\AspNetRoleClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:34:43.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VendorPortal.Service.csproj",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\VendorPortal.Service.csproj",
+              "RelativeDocumentMoniker": "VendorPortal.Service\\VendorPortal.Service.csproj",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Service\\VendorPortal.Service.csproj",
+              "RelativeToolTip": "VendorPortal.Service\\VendorPortal.Service.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T12:26:59.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VendorPortal.Web.csproj",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\VendorPortal.Web.csproj",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\VendorPortal.Web.csproj",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\VendorPortal.Web.csproj",
+              "RelativeToolTip": "VendorPortalWeb\\VendorPortal.Web.csproj",
+              "ViewState": "AQIAAJcAAAAAAAAAAABBwDcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T12:00:52.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VendorPortal.Core.csproj",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\VendorPortal.Core.csproj",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj",
+              "RelativeToolTip": "VendorPortal.Core\\VendorPortal.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T11:46:37.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "VendorPortalWeb\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAIBJwAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T08:58:55.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "VendorPortal.Core\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:03:53.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConfirmationOrder.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\ConfirmationOrder.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\ConfirmationOrder.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\ConfirmationOrder.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\ConfirmationOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:16:47.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationService .cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\NotificationService .cs",
+              "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\NotificationService .cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Service\\Services\\NotificationService .cs",
+              "RelativeToolTip": "VendorPortal.Service\\Services\\NotificationService .cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T07:26:37.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\Notification.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\Notification.cs",
+              "RelativeToolTip": "VendorPortal.Core\\Models\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T07:24:41.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\style.css",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAFYOAAAAAAAAAAD4v2wOAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-03T08:07:16.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\INotificationService.cs",
+              "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\INotificationService.cs",
+              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\INotificationService.cs",
+              "RelativeToolTip": "VendorPortal.Core\\IServices\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T07:25:40.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "VendorPortalWeb\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T09:00:59.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "VendorPortalWeb\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAACEBAAAAAAAAAAAswC8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T12:57:03.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "_Notifications.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Notification\\_Notifications.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Notification\\_Notifications.cshtml",
@@ -367,69 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\Notification.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\Notification.cs",
-              "RelativeToolTip": "VendorPortal.Core\\Models\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T07:24:41.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "INotificationService.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\INotificationService.cs",
-              "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\INotificationService.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\INotificationService.cs",
-              "RelativeToolTip": "VendorPortal.Core\\IServices\\INotificationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T07:25:40.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "style.css",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\style.css",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\style.css",
-              "ViewState": "AQIAAFYOAAAAAAAAAAD4v2wOAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-03T08:07:16.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\OrdersController.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "VendorPortalWeb\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAApwFYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:46:38.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Orders\\Index.cshtml",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "VendorPortalWeb\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AQIAACEBAAAAAAAAAAAswC8BAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T12:57:03.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 25,
               "Title": "OrderTrackingController.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\OrderTrackingController.cs",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\OrderTrackingController.cs",
@@ -442,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 26,
               "Title": "OrderTrackingService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\OrderTrackingService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\OrderTrackingService.cs",
@@ -455,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 27,
               "Title": "Aramex.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\Aramex.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\Aramex.cs",
@@ -468,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "UpdateETIOrderStatusRoot.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\UpdateETIOrderStatusRoot.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\UpdateETIOrderStatusRoot.cs",
@@ -476,23 +822,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\UpdateETIOrderStatusRoot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T11:42:17.503Z"
+              "WhenOpened": "2024-11-25T11:42:17.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "VendorPortal.EF\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "VendorPortal.EF\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAA4wCIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:54:42.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
               "Title": "EtisalatVendor.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\EtisalatVendor.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\EtisalatVendor.cs",
@@ -500,11 +835,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\EtisalatVendor.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAswGcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T11:40:26.581Z"
+              "WhenOpened": "2024-11-25T11:40:26.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 34,
               "Title": "DynamicsService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\DynamicsService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\DynamicsService.cs",
@@ -512,23 +848,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\DynamicsService.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAuwDkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:26:45.143Z"
+              "WhenOpened": "2024-11-25T08:26:45.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "VendorPortalWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBYAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:13:08.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "ConfirmationController.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\ConfirmationController.cs",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\ConfirmationController.cs",
@@ -541,19 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NotificationService .cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\NotificationService .cs",
-              "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\NotificationService .cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.Service\\Services\\NotificationService .cs",
-              "RelativeToolTip": "VendorPortal.Service\\Services\\NotificationService .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAACCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T07:26:37.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 36,
               "Title": "OrderService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\OrderService.cs",
@@ -561,11 +874,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\OrderService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAASwBQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:34:58.716Z"
+              "WhenOpened": "2024-11-03T12:34:58.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 38,
               "Title": "IVendor.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\IVendor.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\IVendor.cs",
@@ -573,47 +887,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\IVendor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T11:39:37.224Z"
+              "WhenOpened": "2024-11-25T11:39:37.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\Controllers\\NotificationController.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "VendorPortalWeb\\Controllers\\NotificationController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T07:28:42.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "VendorPortal.Web.csproj",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\VendorPortal.Web.csproj",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\VendorPortal.Web.csproj",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\VendorPortal.Web.csproj",
-              "RelativeToolTip": "VendorPortalWeb\\VendorPortal.Web.csproj",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAhwDcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-01T12:00:52.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Program.cs",
-              "RelativeDocumentMoniker": "VendorPortalWeb\\Program.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Program.cs",
-              "RelativeToolTip": "VendorPortalWeb\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBwAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:50:41.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 37,
               "Title": "INotifi.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\INotifi.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\INotifi.cs",
@@ -621,11 +900,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\INotifi.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:46:17.108Z"
+              "WhenOpened": "2024-12-03T09:46:17.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 43,
               "Title": "SignalRNotification.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\SignalRNotification.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\SignalRNotification.cs",
@@ -633,23 +913,25 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\SignalRNotification.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:54:08.443Z"
+              "WhenOpened": "2024-12-03T07:54:08.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 41,
               "Title": "adminlte.core.css",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css",
               "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css",
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css",
-              "ViewState": "AQIAAFESAAAAAAAAAAAAAFESAAArAAAA",
+              "ViewState": "AQIAAEsSAAAAAAAAAIBZwFESAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-03T09:21:09.412Z"
+              "WhenOpened": "2024-12-03T09:21:09.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 40,
               "Title": "adminlte.core.css.map",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css.map",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css.map",
@@ -657,23 +939,25 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.css.map",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABFNwUA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-03T09:21:11.769Z"
+              "WhenOpened": "2024-12-03T09:21:11.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 39,
               "Title": "adminlte.core.min.css.map",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
               "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAUAAADJxQEA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABRwAUAAADJxQEA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-03T09:21:13.652Z"
+              "WhenOpened": "2024-12-03T09:21:13.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Shared\\_Layout.cshtml",
@@ -681,23 +965,25 @@
               "RelativeToolTip": "VendorPortalWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAGkBAAAAAAAAAAAqwJABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T11:50:44.049Z"
+              "WhenOpened": "2024-11-01T11:50:44.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 42,
               "Title": "site.css",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\site.css",
               "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\site.css",
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJYAAAAAAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAIBZwJYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-03T09:28:13.689Z"
+              "WhenOpened": "2024-11-03T09:28:13.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "IRealTimeNotification.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IRealTimeNotification.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IRealTimeNotification.cs",
@@ -705,11 +991,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IRealTimeNotification.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:53:42.278Z"
+              "WhenOpened": "2024-12-03T07:53:42.278Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\Infrastructure\\NotificationHub.cs",
               "RelativeDocumentMoniker": "VendorPortal.EF\\Infrastructure\\NotificationHub.cs",
@@ -717,59 +1004,12 @@
               "RelativeToolTip": "VendorPortal.EF\\Infrastructure\\NotificationHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:10:28.662Z"
+              "WhenOpened": "2024-12-03T09:10:28.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "VendorPortal.EF\\Repositories\\BaseRepository.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "VendorPortal.EF\\Repositories\\BaseRepository.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAtwGUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:54:10.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "VendorPortal.EF\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\ApplicationDbContext.cs",
-              "RelativeToolTip": "VendorPortal.EF\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wCYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:20:19.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
-              "RelativeToolTip": "VendorPortal.EF\\IRepositories\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:54:52.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "VendorPortal.Core.csproj",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj",
-              "RelativeDocumentMoniker": "VendorPortal.Core\\VendorPortal.Core.csproj",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\VendorPortal.Core.csproj",
-              "RelativeToolTip": "VendorPortal.Core\\VendorPortal.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-01T11:46:37.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 49,
               "Title": "IConfirmationService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IConfirmationService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IConfirmationService.cs",
@@ -777,23 +1017,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IConfirmationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:08:42.272Z"
+              "WhenOpened": "2024-11-11T07:08:42.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ConfirmationOrder.cs",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\ConfirmationOrder.cs",
-              "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\ConfirmationOrder.cs",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\ConfirmationOrder.cs",
-              "RelativeToolTip": "VendorPortal.Core\\Models\\ConfirmationOrder.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAArwEwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:16:47.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 47,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IOrderService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IOrderService.cs",
@@ -801,11 +1030,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IOrderService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:33:22.901Z"
+              "WhenOpened": "2024-11-03T12:33:22.901Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 48,
               "Title": "ConfirmationService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\ConfirmationService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\ConfirmationService.cs",
@@ -813,11 +1043,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\ConfirmationService.cs",
               "ViewState": "AQIAAI4AAAAAAAAAAAAtwK0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:09:48.476Z"
+              "WhenOpened": "2024-11-11T07:09:48.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 50,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\OrderTracking\\Index.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\OrderTracking\\Index.cshtml",
@@ -825,11 +1056,12 @@
               "RelativeToolTip": "VendorPortalWeb\\Views\\OrderTracking\\Index.cshtml",
               "ViewState": "AQIAAEoAAAAAAAAAAADgv14AAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T11:56:48.341Z"
+              "WhenOpened": "2024-11-26T11:56:48.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 51,
               "Title": "libman.json",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\libman.json",
               "RelativeDocumentMoniker": "VendorPortalWeb\\libman.json",
@@ -837,11 +1069,12 @@
               "RelativeToolTip": "VendorPortalWeb\\libman.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-24T09:58:01.62Z"
+              "WhenOpened": "2024-11-24T09:58:01.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "TrackOrderRequestModel.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\TrackOrderRequestModel.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\TrackOrderRequestModel.cs",
@@ -849,11 +1082,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\TrackOrderRequestModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T10:30:16.992Z"
+              "WhenOpened": "2024-11-27T10:30:16.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\OrderStatus.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\OrderStatus.cs",
@@ -861,23 +1095,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\OrderStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:21:12.799Z"
+              "WhenOpened": "2024-11-03T12:21:12.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "VendorPortal.EF.csproj",
-              "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\VendorPortal.EF.csproj",
-              "RelativeDocumentMoniker": "VendorPortal.EF\\VendorPortal.EF.csproj",
-              "ToolTip": "E:\\VendorPortal\\VendorPortal.EF\\VendorPortal.EF.csproj",
-              "RelativeToolTip": "VendorPortal.EF\\VendorPortal.EF.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-01T11:46:36.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.EF\\IRepositories\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "VendorPortal.EF\\IRepositories\\IBaseRepository.cs",
@@ -885,11 +1108,12 @@
               "RelativeToolTip": "VendorPortal.EF\\IRepositories\\IBaseRepository.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAArwBIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T11:54:29.283Z"
+              "WhenOpened": "2024-11-01T11:54:29.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "CancelOrderRequest.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\CancelOrderRequest.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\CancelOrderRequest.cs",
@@ -897,11 +1121,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\CancelOrderRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:54:15.574Z"
+              "WhenOpened": "2024-11-25T08:54:15.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 56,
               "Title": "ShipmentDetailsCards.css",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\ShipmentDetailsCards.css",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\ShipmentDetailsCards.css",
@@ -909,11 +1134,12 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\ShipmentDetailsCards.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T07:04:33.161Z"
+              "WhenOpened": "2024-11-27T07:04:33.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 86,
               "Title": "IShippingCompany.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IShippingCompany.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IShippingCompany.cs",
@@ -921,11 +1147,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IShippingCompany.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:31:44.36Z"
+              "WhenOpened": "2024-11-26T11:31:44.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 87,
               "Title": "IOrderTrackingService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IOrderTrackingService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IOrderTrackingService.cs",
@@ -933,11 +1160,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IOrderTrackingService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:25:42.291Z"
+              "WhenOpened": "2024-11-26T11:25:42.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 88,
               "Title": "ShippingCompanies.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Consts\\ShippingCompanies.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Consts\\ShippingCompanies.cs",
@@ -945,11 +1173,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Consts\\ShippingCompanies.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:29:53.063Z"
+              "WhenOpened": "2024-11-26T11:29:53.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 89,
               "Title": "AramexTrackingResult.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\AramexTrackingResult.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\AramexTrackingResult.cs",
@@ -957,11 +1186,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\AramexTrackingResult.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:38:20.409Z"
+              "WhenOpened": "2024-11-26T11:38:20.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 57,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Confirmation\\Index.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Confirmation\\Index.cshtml",
@@ -969,11 +1199,12 @@
               "RelativeToolTip": "VendorPortalWeb\\Views\\Confirmation\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T09:30:55.305Z"
+              "WhenOpened": "2024-11-24T09:30:55.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 58,
               "Title": "B2CService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\B2CService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\B2CService.cs",
@@ -981,11 +1212,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\B2CService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:47:57.522Z"
+              "WhenOpened": "2024-11-25T08:47:57.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 60,
               "Title": "IDynamicsService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IDynamicsService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IDynamicsService.cs",
@@ -993,11 +1225,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IDynamicsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:26:25.886Z"
+              "WhenOpened": "2024-11-25T08:26:25.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 59,
               "Title": "DynamicsCancelSalesOrderResponse.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\DynamicsCancelSalesOrderResponse.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\DynamicsCancelSalesOrderResponse.cs",
@@ -1005,11 +1238,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\DynamicsCancelSalesOrderResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T12:03:15.713Z"
+              "WhenOpened": "2024-11-25T12:03:15.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 61,
               "Title": "B2CLoginResponse.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\B2CLoginResponse.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\B2CLoginResponse.cs",
@@ -1017,11 +1251,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\B2CLoginResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:47:11.778Z"
+              "WhenOpened": "2024-11-25T08:47:11.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 62,
               "Title": "IB2CService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IB2CService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IB2CService.cs",
@@ -1029,11 +1264,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IB2CService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:45:46.319Z"
+              "WhenOpened": "2024-11-25T08:45:46.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 64,
               "Title": "MoblieNumberValidationService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\MoblieNumberValidationService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\MoblieNumberValidationService.cs",
@@ -1041,11 +1277,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\MoblieNumberValidationService.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAmwCQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:16:41.238Z"
+              "WhenOpened": "2024-11-24T11:16:41.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 63,
               "Title": "SupplyChainGatewayService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\SupplyChainGatewayService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\SupplyChainGatewayService.cs",
@@ -1053,11 +1290,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\SupplyChainGatewayService.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAAwDUAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:52:03.225Z"
+              "WhenOpened": "2024-11-24T11:52:03.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 65,
               "Title": "CitiesDistrictsService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Service\\Services\\CitiesDistrictsService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Service\\Services\\CitiesDistrictsService.cs",
@@ -1065,11 +1303,12 @@
               "RelativeToolTip": "VendorPortal.Service\\Services\\CitiesDistrictsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:02:04.885Z"
+              "WhenOpened": "2024-11-20T12:02:04.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 67,
               "Title": "ISupplyChainGatewayService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\ISupplyChainGatewayService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\ISupplyChainGatewayService.cs",
@@ -1077,11 +1316,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\ISupplyChainGatewayService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:51:05.165Z"
+              "WhenOpened": "2024-11-24T11:51:05.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 66,
               "Title": "OrderConfirmationsData.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\OrderConfirmationsData.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\OrderConfirmationsData.cs",
@@ -1089,11 +1329,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\OrderConfirmationsData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:51:18.813Z"
+              "WhenOpened": "2024-11-20T09:51:18.813Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 68,
               "Title": "IMoblieNumberValidationService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\IMoblieNumberValidationService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\IMoblieNumberValidationService.cs",
@@ -1101,11 +1342,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\IMoblieNumberValidationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:12:33.461Z"
+              "WhenOpened": "2024-11-24T10:12:33.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 69,
               "Title": "ConfirmShipmentViewModel.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\ConfirmShipmentViewModel.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\ConfirmShipmentViewModel.cs",
@@ -1113,23 +1355,25 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\ConfirmShipmentViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T10:14:13.802Z"
+              "WhenOpened": "2024-11-24T10:14:13.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 70,
               "Title": "D365Model.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\D365Model.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\D365Model.cs",
               "ToolTip": "E:\\VendorPortal\\VendorPortal.Core\\Models\\D365Model.cs",
               "RelativeToolTip": "VendorPortal.Core\\Models\\D365Model.cs",
-              "ViewState": "AQIAADIBAAAAAAAAAIA9wEUBAAAXAAAA",
+              "ViewState": "AQIAADMBAAAAAAAAAAApwEUBAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:50:44.58Z"
+              "WhenOpened": "2024-11-20T11:50:44.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 71,
               "Title": "OrderJsonDetail.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\OrderJsonDetail.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\OrderJsonDetail.cs",
@@ -1137,11 +1381,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\OrderJsonDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:48:04.836Z"
+              "WhenOpened": "2024-11-20T11:48:04.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 72,
               "Title": "ICitiesDistrictsService.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\IServices\\ICitiesDistrictsService.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\IServices\\ICitiesDistrictsService.cs",
@@ -1149,11 +1394,12 @@
               "RelativeToolTip": "VendorPortal.Core\\IServices\\ICitiesDistrictsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:53:15.615Z"
+              "WhenOpened": "2024-11-20T11:53:15.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 73,
               "Title": "VWcityDistrict.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\VWcityDistrict.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\VWcityDistrict.cs",
@@ -1161,11 +1407,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\VWcityDistrict.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:54:51.274Z"
+              "WhenOpened": "2024-11-20T11:54:51.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 74,
               "Title": "style.scss",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\scss\\style.scss",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\scss\\style.scss",
@@ -1173,11 +1420,12 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\scss\\style.scss",
               "ViewState": "AQIAAHcAAAAAAAAAAAAUwJAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-04T10:01:43.181Z"
+              "WhenOpened": "2024-11-04T10:01:43.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 75,
               "Title": "custom-datatable.css",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\css\\custom-datatable.css",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\css\\custom-datatable.css",
@@ -1185,35 +1433,38 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\css\\custom-datatable.css",
               "ViewState": "AQIAAGsAAAAAAAAAAAAwwEUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-04T09:14:23.302Z"
+              "WhenOpened": "2024-11-04T09:14:23.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 76,
               "Title": "_mixins.scss",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_mixins.scss",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_mixins.scss",
               "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_mixins.scss",
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_mixins.scss",
-              "ViewState": "AQIAABUAAAAAAAAAAABRwBkAAAAVAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAABhwBkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-05T11:39:28.107Z"
+              "WhenOpened": "2024-11-05T11:39:28.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 78,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "VendorPortalWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAIBZwEwAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBpwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T11:49:33.122Z"
+              "WhenOpened": "2024-11-01T11:49:33.122Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 77,
               "Title": "site.js",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\js\\site.js",
@@ -1221,11 +1472,12 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\js\\site.js",
               "ViewState": "AQIAAB0AAAAAAAAAAAAQwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-03T10:13:25.119Z"
+              "WhenOpened": "2024-11-03T10:13:25.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 79,
               "Title": "DXStatus.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Consts\\DXStatus.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Consts\\DXStatus.cs",
@@ -1233,11 +1485,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Consts\\DXStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:16:12.815Z"
+              "WhenOpened": "2024-11-05T13:16:12.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 81,
               "Title": "_badge.scss",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_badge.scss",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_badge.scss",
@@ -1245,11 +1498,12 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\scss\\bootstrap\\_badge.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-05T11:39:02.773Z"
+              "WhenOpened": "2024-11-05T11:39:02.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 80,
               "Title": "_background-variant.scss",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
               "RelativeDocumentMoniker": "VendorPortalWeb\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
@@ -1257,11 +1511,12 @@
               "RelativeToolTip": "VendorPortalWeb\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-05T11:39:47.995Z"
+              "WhenOpened": "2024-11-05T11:39:47.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 82,
               "Title": "Vendors.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Consts\\Vendors.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Consts\\Vendors.cs",
@@ -1269,11 +1524,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Consts\\Vendors.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T07:16:15.371Z"
+              "WhenOpened": "2024-11-04T07:16:15.371Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 83,
               "Title": "OrdersFlag.cs",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortal.Core\\Models\\OrdersFlag.cs",
               "RelativeDocumentMoniker": "VendorPortal.Core\\Models\\OrdersFlag.cs",
@@ -1281,11 +1537,12 @@
               "RelativeToolTip": "VendorPortal.Core\\Models\\OrdersFlag.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:21:05.255Z"
+              "WhenOpened": "2024-11-03T12:21:05.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 84,
               "Title": "_Navbar.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Shared\\_Navbar.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Shared\\_Navbar.cshtml",
@@ -1293,11 +1550,12 @@
               "RelativeToolTip": "VendorPortalWeb\\Views\\Shared\\_Navbar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T11:52:44.15Z"
+              "WhenOpened": "2024-11-01T11:52:44.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 85,
               "Title": "_Footer.cshtml",
               "DocumentMoniker": "E:\\VendorPortal\\VendorPortalWeb\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "VendorPortalWeb\\Views\\Shared\\_Footer.cshtml",
@@ -1305,7 +1563,8 @@
               "RelativeToolTip": "VendorPortalWeb\\Views\\Shared\\_Footer.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T11:51:36.543Z"
+              "WhenOpened": "2024-11-01T11:51:36.543Z",
+              "EditorCaption": ""
             }
           ]
         }
